@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://getbootstrap.com/docs/4.0/examples/cover/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://getbootstrap.com/favicon.ico">
+
+    <title>ISCloud Corporation</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./index_files/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./index_files/cover.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+
+     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+          <div class="inner">
+              <h3 class="masthead-brand">Configuration a conf.properties file</h3>
+          </div>
+      </header>
+
+
+        <nav class="nav nav-masthead justify-content-center">
+            <a class="btn btn-light" href="#" onClick="listModule.getProperties()">List Configuration Properties</a>
+        </nav>
+
+
+        <nav class="nav nav-masthead justify-content-center">
+            <a class="btn btn-light" href="#" >Update Configuration Properties</a>
+        </nav>
+
+         <h5 class="masthead-brand">DBSID:</h5>
+         <main role="main" class="inner cover" id="DBSID">
+         </main>
+
+         <h5 class="masthead-brand">DBIP:</h5>
+         <main role="main" class="inner cover" id="DBIP">
+         </main>
+
+         <h5 class="masthead-brand">DBPort:</h5>
+         <main role="main" class="inner cover" id="DBPort">
+         </main>
+
+         <h5 class="masthead-brand">DBUserName:</h5>
+         <main role="main" class="inner cover" id="DBUserName">
+         </main>
+
+         <h5 class="masthead-brand">DBPassword:</h5>
+         <main role="main" class="inner cover" id="DBPassword">
+         </main>
+
+         <h5 class="masthead-brand">Partition Count:</h5>
+         <main role="main" class="inner cover" id="PartitionCount">
+         </main>
+
+         <h5 class="masthead-brand">Min Connection:</h5>
+         <main role="main" class="inner cover" id="MinConnection">
+         </main>
+
+         <h5 class="masthead-brand">Max Connection:</h5>
+         <main role="main" class="inner cover" id="MaxConnection">
+         </main>
+
+         <h5 class="masthead-brand">PDF Path:</h5>
+         <main role="main" class="inner cover" id="PDFPath">
+         </main>
+
+         <h5 class="masthead-brand">Admin Email:</h5>
+         <main role="main" class="inner cover" id="AdminEmail">
+         </main>
+
+        <footer class="mastfoot mt-auto">
+            <div class="inner">
+                <p>Properties Configuration, by <a >Martin Cantor</a>.</p>
+            </div>
+        </footer>
+
+
+    </div>
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./index_files/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="./index_files/popper.min.js"></script>
+    <script src="./index_files/bootstrap.min.js"></script>
+    <script src="/js/ListProperties.js"></script>
+     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  
+
+</body></html>
